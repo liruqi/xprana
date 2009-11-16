@@ -32,9 +32,9 @@
 		$tg		= array();
 		foreach($tags as $t) {
 			$t	= trim($t);
-			if( FALSE == preg_match('/^[a-zа-я0-9\-\_\.\s\+]{3,}$/iu', $t) ) {
-				continue;
-			}
+	//		if( FALSE == preg_match('/^[a-zа-я0-9\-\_\.\s\+]{3,}$/iu', $t) ) {
+	//			continue;
+	//		}
 			$tg[]			= $t;
 			$tg_recount[]	= $t;
 		}

@@ -81,6 +81,12 @@ function postform_open(tp, len, username, userid, txt)
 	_d.getElementById("postform").style.display	= "";
 	scroll(0, 0);
 	area.focus();
+	if(_d.all) {
+		area.createTextRange().moveStart("character",area.value.length);
+	}
+	else {
+		area.setSelectionRange(0,0);
+	}
 	postform_validate(area, len);
 	postform_validate_advanced(area, len);
 }
@@ -135,7 +141,7 @@ function postform_close()
 	postform_remove_media();
 	if( postform_tmout ) { clearTimeout(postform_tmout); }
 }
-function postform_mention(username, len)
+function postform_mention(username, len, msg)
 {
 	if( postform_loading || postform_opened == 99 ) {
 		return;
@@ -145,13 +151,13 @@ function postform_mention(username, len)
 		var v	= area.value + " " + "@"+username;
 		v	= trim( v.replace("  ", " ") );
 		if( v.length > len ) {
-			return;
+			//return;
 		}
 		area.value	= v + " ";
 		area.onkeypress();
 		area.focus();
 	}
-	return postform_open(1, len, "", 0, "@"+username+" ");
+	return postform_open(1, len, "", 0, "@"+username+":"+msg);
 }
 function postform_validate(area, len)
 {

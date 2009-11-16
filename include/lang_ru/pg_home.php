@@ -68,6 +68,6 @@
               );
              
 $lang['rightcol_support']	= '
-		<a href="http://blurt.it" target="_blank">Blurt.It</a>';
+		<p><a href="http://xirang.us" target="_blank">嘻来嚷往</a><p></p><a href="http://jizha.xirang.us" target="_blank">叽喳</a></p>';
              
 ?>

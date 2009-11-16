@@ -14,8 +14,8 @@ body {
 	margin: 0px;
 	padding:0px;
 	color: #000;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 9pt;
+	font-family: Verdana, Arial,Helvetica, sans-serif;
+	font-size: 10pt;
 	text-decoration: none;
 	background-color: #f8fcfe;
 	text-align:left;
@@ -32,12 +32,12 @@ div {
 td {
 	color: #888888;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 9pt;
+	font-size: 11pt;
 }
 а {
 	color:#ee4700;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 9pt;
+	font-size: 10pt;
 	text-decoration: none;
 }
 а:hover {
@@ -78,7 +78,7 @@ body{
 	padding:0px;
 	color: #000;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 9pt;
+	font-size: 10pt;
 	text-decoration: none;
 	background-color: #f1f1f1;
 	text-align:left;
@@ -86,12 +86,12 @@ body{
 td{
 	color: #888888;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 9pt;
+	font-size: 10pt;
 }
 A {
 	color:#ee4700;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 9pt;
+	font-size: 10pt;
 	text-decoration: none;
 }
 A:hover {
@@ -124,12 +124,12 @@ form {
 	padding-top:9px;
 	padding-bottom:3px;
 	padding-left:55px;
-	font-size: 11px;
+	font-size: 12px;
 }
 .alertbox .alert_left strong {
 	display:block;
 	color: #0c7f00;
-	font-size: 12px;
+	font-size: 13px;
 }
 .alertbox .alert_right {
 	background-image:url('../img/site2/alert_right.gif');
@@ -217,8 +217,8 @@ form {
 	left:20px;
 	display:block;
 	background-image:url('../img/site2/logoo.gif');
-	width:232px;
-	height:39px;
+	width:215px;
+	height:38px;
 	background-repeat:no-repeat;
 }
 #hdr #logolink b {
@@ -226,8 +226,8 @@ form {
 }
 #hdr #nav {
 	position:absolute;
-	top:18px;
-	left:262px;
+	top:16px;
+	left:245px;
 }
 #hdr #nav a {
 	display:block;
@@ -246,7 +246,7 @@ form {
 	padding-top:6px;
 	padding-left:13px;
 	padding-right:13px;
-	font-size:14px;
+	font-size:15px;
 	line-height:17px;
 }
 #hdr #nav a b span{
@@ -280,7 +280,7 @@ form {
 	color: #666;
 	margin:0px;
 	padding:0px;
-	font-size:22px;
+	font-size:23px;
 	margin-top:1px;
 }
 /*****/
@@ -328,7 +328,7 @@ form {
 	width:500px;
 }
 #ftr #ftrlinks a{
-	font-size:11px;
+	font-size:12px;
 	color:#888;
 }
 #ftr #ftrlinks a:hover {
@@ -339,18 +339,18 @@ form {
 	float:right;
 	margin-top:2px;
 	margin-right:20px;
-	font-size:11px;
+	font-size:12px;
 	color:#888;
 	float:right;
-	width:200px;
+	width:250px;
 	text-align:right;
 }
 #ftr #ftrlinks_right a {
- font-size:11px;
+ font-size:12px;
  color:#555;
 }
 #ftr #ftrlinks_right a:hover {
- font-size:11px;
+ font-size:12px;
  color:#ff5700;
  border-bottom:1px dotted #f6d1be;
 }
@@ -374,7 +374,7 @@ form {
 	padding-bottom:8px;
 }
 #intro_new h1 {
-	font-size:24px;
+	font-size:25px;
 	font-weight:normal;
 	padding:0px;
 	margin:0px;
@@ -384,7 +384,7 @@ form {
 }
 #intro_new p {
 	line-height:1.4;
-	font-size:12px;
+	font-size:13px;
 	margin:0px;
 	padding:0px;
 }
@@ -399,7 +399,7 @@ form {
 	width: 182px;
 	height:29px;
 	color:white;
-	font-size:18px;
+	font-size:19px;
 	padding-top:5px;
 	text-align:center;
 	margin-right:5px;
@@ -410,14 +410,14 @@ form {
 
 #intro_new div div#regnow_orr {
 	float:left;
-	font-size:18px;
+	font-size:19px;
 	padding:5px;
 	color:#bbb;
 	height:29px;
 	margin-top:0px;
 }
 #intro_new div div#regnow_orr a {
-	font-size:18px;
+	font-size:19px;
 	color:#ff7700;
 }
 #intro_new div div#regnow_orr a:hover {
@@ -432,7 +432,7 @@ form {
 }
 .regbtnrow a{
 	background-image:url('../img/site2/regbtn.gif');
-	font-size:12px;
+	font-size:13px;
 	color:white;
 	font-weight:bold;
 	display:block;
@@ -449,7 +449,7 @@ form {
 .regbtnrow span{
 	display:block;
 	float:left;
-	font-size:10px;
+	font-size:11px;
 	color:#999;
 	padding:7px;
 }
@@ -461,7 +461,7 @@ form {
 	padding:10px;
 }
 #login #loginn h2 {
-	font-size:20px;
+	font-size:21px;
 	font-weight:normal;
 	padding:0px;
 	margin:0px;
@@ -469,7 +469,7 @@ form {
 }
 
 #login #loginn b {
-	font-size:11px;
+	font-size:12px;
 	font-weight:normal;
 	display:block;
 	color:#ababab;
@@ -478,7 +478,7 @@ form {
 	background-position:0px 7px;	
 }
 #login #loginn b a {
-	font-size:11px;
+	font-size:12px;
 	color: #74b9e6;
 }
 #login #loginn b a:hover {
@@ -500,7 +500,7 @@ form {
 	padding:4px;
 	background-color:#f9f9f9;
 	border:1px solid #ccc;
-	font-size:18px;
+	font-size:19px;
 	color:#222;
 
 }
@@ -550,7 +550,7 @@ form {
 	color:#178BD5;
 	padding-top:3px;
 	padding-left:10px;
-	font-size:11px;
+	font-size:12px;
 }
 #underlogin a b{
 	color:#9cceee;
@@ -578,7 +578,7 @@ form {
 	padding:4px;
 	background-color:#fefefe;
 	border:1px solid #aaa;
-	font-size:18px;
+	font-size:19px;
 	color:#222;
 
 }
@@ -597,7 +597,7 @@ select.forminput {
 }
 .formbtn {
 	padding:4px;
-	font-size:14px;
+	font-size:15px;
 	background-image:url('../img/site2/formbtn.gif');
 	border:1px solid #7bbde7;
 	color:#178bd5;
@@ -632,13 +632,13 @@ select.forminput {
 	background-repeat:no-repeat;
 	background-position:top rleft;
 	padding:7px;
-	font-size:14px;	
+	font-size:15px;	
 }
 #inav .inavitem .inavitem2 a.inav_avatar img {
 	border:0px;
 }
 #inav .inavitem .inavitem2 a.inav_username {	
-	font-size:14px;
+	font-size:15px;
 }
 
 /****/
@@ -660,7 +660,7 @@ select.forminput {
 #index_lastposts h2 {
 	margin:0px;
 	padding:0px;
-	font-size:12px;
+	font-size:13px;
 	text-transform:uppercase;
 	color: #ff5803;
 	margin-left:80px;
@@ -668,7 +668,7 @@ select.forminput {
 #index_row2_right h2 {
 	margin:0px;
 	padding:0px;
-	font-size:12px;
+	font-size:13px;
 	text-transform:uppercase;
 	color: #444;
 	background-color:#eee;
@@ -695,7 +695,7 @@ select.forminput {
 	margin-left:10px;
 }
 #postform b span {
-	font-size:11px;
+	font-size:12px;
 	color:#aaa;
 	font-weight:normal;
 }
@@ -720,7 +720,7 @@ select.forminput {
 	display:block;
 	text-align:right;
 	margin-right:20px;
-	font-size:11px;
+	font-size:12px;
 	color:red;
 	font-weight:normal;
 }
@@ -736,7 +736,7 @@ select.forminput {
 	height:46px;
 	background-image:url('../img/site2/postform_btn.gif');
 	border:0px;
-	font-size:24px;
+	font-size:25px;
 	color: #005393;
 	cursor:pointer;
 	margin-top:5px;
@@ -750,12 +750,12 @@ select.forminput {
 	float:left;
 	margin-top:5px;	
 	margin-left:10px;
-	height:34px;
+	height:80px;
 	width:708px;
 	_width:698px;
 	border:1px solid #99cced;	
 	border-right:0px;
-	font-size:14px;
+	font-size:15px;
 	color:black;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	padding:5px;
@@ -785,7 +785,7 @@ select.forminput {
 	padding-top:8px;
 	margin-left:20px;
 	padding-left:60px;
-	font-size:18px;
+	font-size:19px;
 	color:#178bd5;
 }
 #postform a.okbtn{
@@ -817,7 +817,7 @@ select.forminput {
 	padding-top:8px;
 	margin-left:20px;
 	padding-left:60px;
-	font-size:18px;
+	font-size:19px;
 	color:red;
 }
 
@@ -849,7 +849,7 @@ select.forminput {
 	padding-left:34px;
 	font-weight:normal;
 	color: #178bd5;
-	font-size:11px;
+	font-size:12px;
 }
 #postmedia a.addbtns:hover strong{
 	color: #0d5e93;
@@ -873,7 +873,7 @@ select.forminput {
 }
 .posteditem a {
 	color: #178bd5;
-	font-size:12px;
+	font-size:13px;
 }
 .posteditem a:hover {
 	color: #0d5e93;
@@ -958,7 +958,7 @@ select.forminput {
 	font-weight:normal;
 	color:#666;
 	cursor:pointer;
-	font-size:	12px;
+	font-size:	13px;
 	line-height: 14px;
 }
 #usertabs a:hover {
@@ -1010,7 +1010,7 @@ select.forminput {
 	height:28px;
 }
 #leftcol h1 a {
-	font-size:18px;
+	font-size:19px;
 	font-weight:normal;
 	color:#1c4d84;
 }
@@ -1039,14 +1039,14 @@ select.forminput {
 	padding-bottom:0px;
 }
 #underavatar a {
-	font-size:12px;
+	font-size:13px;
 	line-height:14px;
 }
 #underavatar a.editmyprofile{
 	color:#4685ad;
 	padding:3px;
 	padding-left:5px;
-	font-size:11px;
+	font-size:12px;
 	display:block;
 }
 #underavatar a.editmyprofile:hover{
@@ -1116,7 +1116,7 @@ select.forminput {
 	padding-top:7px;
 	padding-left:30px;
 	display:block;
-	font-size:11px;
+	font-size:12px;
 }
 
 /*******/
@@ -1132,7 +1132,7 @@ select.forminput {
 	font-weight:bold;
 	float:left;
 	color:#1c4d84;
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 12px;
 }
 .stat a:hover{
@@ -1140,7 +1140,7 @@ select.forminput {
 }
 .stat b{
 	font-weight:normal;
-	font-size:11px;
+	font-size:12px;
 	float:right;
 	color: #999;
 }
@@ -1157,7 +1157,7 @@ select.forminput {
 .postspaging a {
 	float:left;
 	display:block;
-	font-size:11px;
+	font-size:12px;
 	color:#1c4d84;
 	background-position:top right;
 	margin-right:5px;
@@ -1208,11 +1208,11 @@ select.forminput {
 	padding-top:2px;
 	padding-bottom:10px;
 	padding-left:25px;
-	font-size:11px;
+	font-size:12px;
 }
 #userinfo div a{
 	color:#1c4d84;
-	font-size:11px;
+	font-size:12px;
 }
 #userinfo div.ui_user {
 	background-image:url('../img/site2/usericon_user.gif');
@@ -1255,11 +1255,11 @@ select.forminput {
 	display:block;
 	margin:0px;
 	padding:0px;
-	font-size:13px;
+	font-size:14px;
 	color:#ff6a00;
 }
 #errorpage #errormsg a {
-	font-size:11px;
+	font-size:12px;
 	margin-top:10px;
 	display:block;
 	color: #006fc8;
@@ -1308,14 +1308,14 @@ a.avatarr:hover {
 	float:left;
 	padding:0px;
 	margin:0px;
-	font-size:18px;
+	font-size:19px;
 	font-weight:normal;
 	color:black;
 	padding-left:10px;
 	width:300px;
 }
 #tabbedpage h1 a {
-	font-size:18px;
+	font-size:19px;
 	color:#1c4d84;
 }
 #tabbedpage h1 a:hover {
@@ -1339,7 +1339,7 @@ a.avatarr:hover {
 	padding-left:10px;
 	padding-right:10px;
 	display:block;
-	font-size:11px;
+	font-size:12px;
 }
 #tabbedpage a.pagenav:hover b{
 	color: #ff5b00;
@@ -1368,7 +1368,7 @@ a.avatarr:hover {
 }
 /************/
 .item_user {
-	font-size:11px;
+	font-size:12px;
 	line-height:13px;
 	color:#000;
 	width:260px;
@@ -1394,7 +1394,7 @@ a.avatarr:hover {
 	border:1px solid #ff6500;
 }
 .item_user a.username {
-	font-size:18px;
+	font-size:19px;
 	line-height:22px;
 	color: #ff6b00;
 	display:block;
@@ -1421,7 +1421,7 @@ a.avatarr:hover {
 	background-position:top left;
 	display:block;
 	padding:3px 10px 4px 10px;
-	font-size:11px;
+	font-size:12px;
 }
 .item_user .item_usercontrols a:hover b {
 	color:#1c4d84;
@@ -1436,7 +1436,7 @@ a.avatarr:hover {
 	margin:0px;
 	padding:0px;
 	font-weight:normal;
-	font-size:18px;
+	font-size:19px;
 	float:left;
 	margin-left:10px;
 }
@@ -1472,7 +1472,7 @@ a.avatarr:hover {
 #scrollup {
 	margin-left:100px;
 	background-image:url('../img/site2/icon_up.gif');
-	font-size:11px;
+	font-size:12px;
 	color: #aaa;
 	background-repeat:no-repeat;
 	padding-left:12px;
@@ -1496,15 +1496,15 @@ a.avatarr:hover {
  margin-left:5px;
  font-weight:normal;
  color:#555;
- font-size:11px;
+ font-size:12px;
 }
 #usertags b a {
  color:#58a0cd;
- font-size:11px;
+ font-size:12px;
 }
 #usertags b a:hover {
  color:#1c4d84;
- font-size:11px;
+ font-size:12px;
 }
 
 #tagzz {
@@ -1548,7 +1548,7 @@ a.avatarr:hover {
  color: #1c4d84;
 }
 #noposts2 h2 {
- font-size:14px;
+ font-size:15px;
  color: #333;
  margin:0px;
  padding:0px;
@@ -1582,7 +1582,7 @@ a.avatarr:hover {
  background-repeat:no-repeat;
  padding:8px;
  padding-bottom:15px;
- font-size:18px;
+ font-size:19px;
  padding-left:15px;
 }
 /*****/
@@ -1642,11 +1642,11 @@ a.avatarr:hover {
 	margin:0px;
 	margin-bottom:10px;
 	color:#ff5500;
-	font-size:20px;
+	font-size:21px;
 }
 #faqpage h2 a{
 	color:#006dc2;
-	font-size:20px;
+	font-size:21px;
 }
 #faqpage h2 a:hover{
 	color:#00467c;
@@ -1688,7 +1688,7 @@ a.avatarr:hover {
 	padding-top:27px;
 	font-weight:normal;
 	color: #00417e;
-	font-size:22px;
+	font-size:23px;
 }
 #mobipage_text {
 	margin-top:30px;
@@ -1698,35 +1698,35 @@ a.avatarr:hover {
 #mobipage_url {
 	margin-top:12px;
 	color:#00417E;
-	font-size:11px;
+	font-size:12px;
 	line-height:1.2;
 	font-weight:bold;
 }
 #mobipage_url b {
 	margin-top:5px;
-	font-size:24px;
+	font-size:25px;
 	font-weight:normal;
 	display:block;
 	color:#ff5500;
 }
 #mobipage_podcherta {
-	font-size:11px;
+	font-size:12px;
 	color:#777;
 	margin-top:40px;
 }
 #mobipage_podcherta a {
-	font-size:11px;
+	font-size:12px;
 	color:#444;
 }
 
 #mobipage_configlinks {
-	font-size:11px;
+	font-size:12px;
 	color:#333;
 	margin-top:10px;
 }
 
 #mobipage_configlinks b {
-	font-size:12px;
+	font-size:13px;
 	color:#000;
 	display:block;
 }
@@ -1741,7 +1741,7 @@ a.avatarr:hover {
 }
 a.post_from_api {
 	color: #74B7E1;
-	font-size: 10px;
+	font-size: 11px;
 }
 a.post_from_api:hover {
 	color: #ff5500;
@@ -1761,7 +1761,7 @@ a.post_from_api:hover {
 	padding:7px;
 	padding-bottom:8px;
 	color:#888;
-	font-size:11px;
+	font-size:12px;
 }
 #intopline a {
 	color:#ff5500;
@@ -1860,7 +1860,7 @@ div.flybox_box_hdr_center div {
 	padding-left:	0px;
 	line-height:	1;
 	font-weight:	bold;
-	font-size:	12px;
+	font-size:	13px;
 }
 a.flybox_close {
 	display:	block;
@@ -1967,7 +1967,7 @@ div.flybox_box_main {
 	background-color:white;
 }
 .flyform small {
-	font-size:11px;
+	font-size:12px;
 	line-height:13px;
 	color:#999;
 	display:block;
@@ -2004,7 +2004,7 @@ div.flybox_box_main {
 	padding-left:10px;
 	padding-right:10px;
 	display:block;
-	font-size:11px;
+	font-size:12px;
 	line-height:13px;
 }
 .flynav a:hover b{
@@ -2082,7 +2082,7 @@ div.flybox_box_main {
 	padding-top:5px;
 }
 .post .post_content .post_username {
-	font-size:18px;
+	font-size:19px;
 	color:#178bd5;
 	margin-bottom:2px;
 	display:block;
@@ -2168,7 +2168,7 @@ div.flybox_box_main {
 .post_controls div.post_from{
 	color:#bbb;
 	height:14px;
-	font-size:11px;
+	font-size:12px;
 	padding-top:3px;
 	margin-left:6px;
 	float:left;
@@ -2177,7 +2177,7 @@ div.flybox_box_main {
 	color:#74b7e1;
 	display:inline;
 	float:none;
-	font-size:11px;
+	font-size:12px;
 }
 .post_controls div.post_from a:hover{
 	color: #178bd5;
@@ -2185,7 +2185,7 @@ div.flybox_box_main {
 .post_link {
 	display:block;
 	background-image:url('../img/site2/post_link.gif');
-	font-size:11px;
+	font-size:12px;
 	color: #0769a7;
 	padding:4px;
 	padding-left:20px;
@@ -2245,7 +2245,7 @@ div.flybox_box_main {
 	border-right:1px solid #aaaaaa;
 }
 .lastpost .lastpost_content p {
-	font-size:18px;
+	font-size:19px;
 	margin:0px;
 	padding:0px;
 	padding-bottom:15px;
@@ -2253,16 +2253,16 @@ div.flybox_box_main {
 	overflow-x: hidden;
 }
 .lastpost .lastpost_content p a {
-	font-size:18px;
+	font-size:19px;
 }
 .lastpost .lastpost_content p a.post_link {
-	font-size:11px;
+	font-size:12px;
 }
 .lastpost.attach_media .lastpost_content p {
 	width:	540px;
 }
 .lastpost .lastpost_content small {
-	font-size:11px;
+	font-size:12px;
 	color:#aaa;
 }
 .lastpost .post_controls {
@@ -2309,12 +2309,12 @@ div.flybox_box_main {
 }
 .lastpost p span {
  color:#999;
- font-size:16px;
+ font-size:17px;
  font-weight:bold;
 }
 .lastpost p span a {
  color:#ff5500;
- font-size: 18px;
+ font-size: 19px;
  font-weight:normal;
 }
 .lastpost p img, .post p img {
@@ -2362,7 +2362,7 @@ div.flybox_box_main {
 	border-bottom:1px solid #ccc;
 }
 #viewpage h1 {
-	font-size:18px;
+	font-size:19px;
 	font-weight:normal;
 	padding:10px;
 	padding-bottom:3px;
@@ -2397,7 +2397,7 @@ div.flybox_box_main {
 	height:50px;
 }
 #viewpage #authorpanel #username{
-	font-size:20px;
+	font-size:21px;
 	color:#ff5500;
 }
 #viewpage #authorpanel #avatar:hover {
@@ -2418,12 +2418,12 @@ div.flybox_box_main {
 }
 #viewpage h1  span {
 	color:#999;
-	font-size:16px;
+	font-size:17px;
 	font-weight:bold;
 }
 #viewpage h1 a {
 	color:#ff5500;
-	font-size: 18px;
+	font-size: 19px;
 	font-weight:normal;
 }
 #viewpage h1 img{
@@ -2445,7 +2445,7 @@ div.flybox_box_main {
 }
 #tourtop div {
 	float:right;
-	font-size:11px;
+	font-size:12px;
 	color: #aaa;
 }
 #tourpage {
@@ -2457,7 +2457,7 @@ div.flybox_box_main {
 	float:left;
 }
 #tourpage_text h1 {
-	font-size:22px;
+	font-size:23px;
 	font-weight:normal;
 	margin:0px;
 	color:#ff5500;
@@ -2508,7 +2508,7 @@ div.flybox_box_main {
 	float:left;
 	width: 44px;
 	height:33px;
-	font-size:20px;
+	font-size:21px;
 	color:#777;
 	text-align:center;
 	padding-top:5px;
@@ -2528,7 +2528,7 @@ div.flybox_box_main {
 	float:left;
 	background-image:url('../img/site2/tour_regnow.gif');
 	color:white;
-	font-size:14px;
+	font-size:15px;
 	font-weight:bold;
 	height:25px;
 	padding-top:7px;
@@ -2576,7 +2576,7 @@ div.flybox_box_main {
 	border-right:1px solid #ff9000;
 }
 .redbox_content h2 {
-	font-size:20px;
+	font-size:21px;
 	font-weight:normal;
 	color: #ff5400;
 	margin:0px;
@@ -2586,12 +2586,12 @@ div.flybox_box_main {
 .redbox_content p{
 	margin:0px;
 	padding:0px;
-	font-size:14px;
+	font-size:15px;
 	margin-bottom:10px;
 
 }
 .redbox_content p a{
-	font-size:14px;
+	font-size:15px;
 }
 .redbox_top{
 	height:8px;
@@ -2625,7 +2625,7 @@ div.flybox_box_main {
 	width: 143px;
 	height:22px;
 	color:white;
-	font-size:14px;
+	font-size:15px;
 	padding-top:4px;
 	text-align:center;
 	margin-right:5px;
@@ -2636,7 +2636,7 @@ div.flybox_box_main {
 }
 .redbox_content div.redbox_regnow_orr {
 	float:left;
-	font-size:12px;
+	font-size:13px;
 	padding:6px;
 	padding-bottom:0px;
 	margin-top:0px;
@@ -2704,7 +2704,7 @@ div.flybox_box_main {
 	float:left;
 }
 .aboutme h2 {
-	font-size:18px;
+	font-size:19px;
 	font-weight:normal;
 	color:#ff5500;
 	margin:0px;
@@ -2765,7 +2765,7 @@ div.flybox_box_main {
 	background-repeat:no-repeat;
 }
 #about_right #reviews #reviews1 h2 {
-	font-size:18px;
+	font-size:19px;
 	margin:0px;
 	padding:0px;
 	color:#0e6095;
@@ -2798,7 +2798,7 @@ div.flybox_box_main {
 }
 .quote .quote_author a{
 	display:block;
-	font-size:11px;
+	font-size:12px;
 	font-weight:bold;
 	color:#178bd5;
 }
@@ -2844,7 +2844,7 @@ div.flybox_box_main {
 }
 .post .post_btns_top div {
 	float:	left;
-	font-size:	11px;
+	font-size:	12px;
 	color:	#bbb;
 	display:	none;
 	margin-left:	2px;
@@ -2908,7 +2908,7 @@ div.flybox_box_main {
 }
 #vpk_right #vpk_btn {
 	color:white;
-	font-size:14px;
+	font-size:15px;
 	font-weight:bold;
 	background-image:url('../img/site2/vpk_btn.gif');
 	display:block;

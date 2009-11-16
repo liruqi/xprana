@@ -1,6 +1,8 @@
-<?php
+﻿<?php
 
-$INFTR	= '';
+$INFTR	= '<script type="text/javascript" src="http://js.tongji.linezing.com/697466/tongji.js"></script><noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/697466/tongji.gif"/></a></noscript>';
+
+$INFTR .= '<script type="text/javascript">document.write(unescape("%3Cscript src=\'http://www.google-analytics.com/ga.js\' type=\'text/javascript\'%3E%3C/script%3E"));</script><script type="text/javascript">try{var pageTracker = _gat._getTracker("UA-11600524-1");pageTracker._trackPageview();} catch(err) {}</script>';
 
 $lastrun	= $GLOBALS['cache']->get('cron_last_run');
 if( !$lastrun || $lastrun<time()-60 ) {
@@ -92,8 +94,7 @@ $html	.=
 						<a href="'.SITEURL.'mobileversion">'.$this->lang('nav_mobipg').'</a>
 					</div>
 					<div id="ftrlinks_right">
-						<!-- Please do not remove this test -->
-						Powered by <a href="http://blurt.it" target="_blank">Blurt.It</a>
+						Powered by <a href="http://sharetronix.com/opensource/" rel="nofollow" target="_blank">Sharetronix</a> & <a href="http://xirang.us" target="_blank">嘻来嚷往</a>
 					</div>
 					<div class="klear"></div>
 				</div>

@@ -7,6 +7,7 @@
 		'nav_login'		=> 'Log in',
 		'nav_register'	=> 'Register',
 		'nav_search'	=> 'Find your friends',
+		'nav_all'	=> SITE_TITLE.'Park',
 		
 		'nav_post'		=> 'New post',
 		'nav_search'	=> 'Search',
