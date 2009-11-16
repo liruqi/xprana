@@ -15,7 +15,8 @@ function send_user_register_email($email, $username, $password)
 	$email_txt	= str_replace( array('##USERNAME##','##PASSWORD##'), array($username,$password), $email_txt );
 	$email_html	= str_replace( array('##USERNAME##','##PASSWORD##'), array($username,$password), $email_html );
 	$email_html	= str_replace( '##TITLE##', $page->lang('Email_Register_htmltitle'), $email_html );
-	return do_send_mail_html($email, $subject, $email_txt, $email_html);
+	$from	= SITE_TITLE.' <no-reply@'.DOMAIN.'>';
+	return do_send_mail_html($email, $subject, $email_txt, $email_html, $from);
 }
 
 function send_user_recoverpass_email($email, $username, $activlink, $ipaddr)
@@ -28,7 +29,8 @@ function send_user_recoverpass_email($email, $username, $activlink, $ipaddr)
 	$email_txt	= str_replace( array('##USERNAME##','##ACTIVATION_LINK##','##IP_ADDRESS##'), array($username,$activlink,$ipaddr), $email_txt );
 	$email_html	= str_replace( array('##USERNAME##','##ACTIVATION_LINK##','##IP_ADDRESS##'), array($username,$activlink,$ipaddr), $email_html );
 	$email_html	= str_replace( '##TITLE##', $page->lang('Email_Restorepass_htmltitle'), $email_html);
-	return do_send_mail_html($email, $subject, $email_txt, $email_html);
+	$from	= SITE_TITLE.' <no-reply@'.DOMAIN.'>';
+	return do_send_mail_html($email, $subject, $email_txt, $email_html, $from);
 }
 
 function send_user_changedpass_email($email, $username, $password)
@@ -40,7 +42,8 @@ function send_user_changedpass_email($email, $username, $password)
 	$email_txt	= str_replace( array('##USERNAME##','##PASSWORD##'), array($username,$password), $email_txt );
 	$email_html	= str_replace( array('##USERNAME##','##PASSWORD##'), array($username,$password), $email_html );
 	$email_html	= str_replace( '##TITLE##', $page->lang('Email_Changedpass_htmltitle'), $email_html );
-	return do_send_mail_html($email, $subject, $email_txt, $email_html);
+	$from	= SITE_TITLE.' <no-reply@'.DOMAIN.'>';
+	return do_send_mail_html($email, $subject, $email_txt, $email_html, $from);
 }
 
 function send_userinvite_email($email, $recpname, $username)
@@ -54,7 +57,8 @@ function send_userinvite_email($email, $recpname, $username)
 	$email_txt	= str_replace( array('##RECP_NAME##','##USERNAME##','##USERLINK##'), array($recpname,$username,$userlink), $email_txt );
 	$email_html	= str_replace( array('##RECP_NAME##','##USERNAME##','##USERLINK##'), array($recpname,$username,$userlink), $email_html );
 	$email_html	= str_replace( '##TITLE##', $page->lang('Email_Invite_htmltitle'), $email_html );
-	return do_send_mail_html($email, $subject, $email_txt, $email_html);
+	$from	= SITE_TITLE.' <no-reply@'.DOMAIN.'>';
+	return do_send_mail_html($email, $subject, $email_txt, $email_html, $from);
 }
 
 function send_notification_email($email, $username, $new_directs, $new_mentions, $new_watches, $LangFunction=FALSE)
@@ -109,7 +113,8 @@ function send_notification_email($email, $username, $new_directs, $new_mentions,
 	$cnt_html	= implode('', $cnt_html);
 	$email_txt	= str_replace('##LINKS_HERE##', $cnt_txt, $email_txt);
 	$email_html	= str_replace('##LINKS_HERE##', $cnt_html, $email_html);
-	return do_send_mail_html($email, $subject, $email_txt, $email_html);
+	$from	= SITE_TITLE.' <no-reply@'.DOMAIN.'>';
+	return do_send_mail_html($email, $subject, $email_txt, $email_html, $from);
 }
 	
 	

@@ -19,7 +19,7 @@ if( $this->user->is_logged )
 $html	.= '
 		<hr />
 		<div id="ftr">
-			&copy; blurt.it
+			Powered by <a href="http://sharetronix.com/opensource/">Sharetronix</a> & <a href="http://xirang.us" target="_blank">嘻来嚷往</a>
 			'.($this->user->is_logged ? '&middot; <a href="'.SITEURL.'login/log:out">'.$this->lang('MOBI_logout').'</a>' : '').'
 		</div>	
 	</body>

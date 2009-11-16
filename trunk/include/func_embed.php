@@ -95,6 +95,42 @@
 			'embed_thumb'	=> '',
 			'insite_url'	=> 'http://worldstarhiphop.com/videos/video.php?v=###ID###',
 		),
+		'tudou'	=> (object) array
+		(
+			'src_url_pattern'		=> '/^http(s)?\:\/\/(www\.)?tudou\.com\/programs\/view\/([a-z0-9-\_]{3,})/i',
+			'src_url_matchnum'	=> 3,
+			'src_emb_pattern'		=> '/^http(s)?\:\/\/(www\.)?tudou\.com\/v\/([a-z0-9-\_]{3,})/i',
+			'src_emb_matchnum'	=> 3,
+			'embed_w'		=> 420,
+			'embed_h'		=> 363,
+			'embed_code'	=> '<object width="420" height="363"><param name="movie" value="http://www.tudou.com/v/###ID###"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="opaque"></param><embed src="http://www.tudou.com/v/###ID###" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="420" height="363"></embed></object>',
+			'embed_thumb'	=> 'http://xprana.com/tudou.img.php?url=http://www.tudou.com/v/###ID###/',
+			'insite_url'	=> 'http://www.tudou.com/programs/view/###ID###/',
+		),
+		'youku'	=> (object) array
+		(
+			'src_url_pattern'		=> '/^http(s)?\:\/\/v\.youku\.com\/v_show\/id_([a-z0-9-\_]{3,})/i',
+			'src_url_matchnum'	=> 2,
+			'src_emb_pattern'		=> '/^http(s)?\:\/\/(player\.)?youku\.com\/player.php\/sid\/([a-z0-9-\_]{3,})/i',
+			'src_emb_matchnum'	=> 3,
+			'embed_w'		=> 480,
+			'embed_h'		=> 400,
+			'embed_code'	=> '<embed src="http://player.youku.com/player.php/sid/###ID###/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"></embed>',
+			'embed_thumb'	=> 'http://i.ytimg.com/vi/###ID###/default.jpg',
+			'insite_url'	=> 'http://v.youku.com/v_show/view/id_###ID###.html',
+		),
+		'baidu'	=> (object) array
+		(
+			'src_url_pattern'		=> '/^http(s)?\:\/\/mv\.baidu\.com\/export\/flashplayer.swf\?vid=([a-z0-9-\_]{3,})/i',
+			'src_url_matchnum'	=> 2,
+			'src_emb_pattern'		=> '/^http(s)?\:\/\/mv\.baidu\.com\/export\/flashplayer.swf\?vid=([a-z0-9-\_]{3,})/i',
+			'src_emb_matchnum'	=> 3,
+			'embed_w'		=> 480,
+			'embed_h'		=> 400,
+			'embed_code'	=> '<embed src="http://mv.baidu.com/export/flashplayer.swf?vid=###ID###" quality="high" width="480" height="400" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"></embed>',
+			'embed_thumb'	=> 'http://i.ytimg.com/vi/###ID###/default.jpg',
+			'insite_url'	=> 'http://mv.baidu.com/export/flashplayer.swf?vid=###ID###',
+		),
 	);
 	
 	function embed_video_check($input='')

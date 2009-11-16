@@ -283,7 +283,7 @@
 	
 	function is_valid_username($uname, $check_scripts=FALSE)
 	{
-		if( FALSE == preg_match('/^[a-zA-Z0-9\-_]{4,20}$/', $uname) ) {
+		if( FALSE == preg_match('/^[a-zA-Z0-9\-_]{3,20}$/', $uname) ) {
 			return FALSE;
 		}
 		if( in_array(strtolower($uname), $GLOBALS['FORBIDDEN_USERNAMES']) ) {

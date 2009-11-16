@@ -88,8 +88,8 @@
 									'.$vpk_text.'
 								</div>
 								<div id="vpk_right">
-									<a href="'.SITEURL.'register" id="vpk_btn">Присъедини се</a>
-									или <a href="'.SITEURL.'tour">разбери още</a>
+									<a href="'.SITEURL.'register" id="vpk_btn">'.$this->lang('guestbox_reg2').'</a>
+									'.$this->lang('guestbox_or').'<a href="'.SITEURL.'tour">'.$this->lang('guestbox_tour').'</a>
 								</div>
 							</div>';
 	}

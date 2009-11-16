@@ -1,8 +1,8 @@
 <?php
 	
-	$HOUR_max_posts	= 10;
+	$HOUR_max_posts	= 60;
 	$HOUR_punishment	= 1*60*60;
-	$DAY_max_posts	= 40;
+	$DAY_max_posts	= 600;
 	$DAY_punishment	= 12*60*60;
 	
 	$db->query('DELETE FROM users_spammers WHERE date_to<"'.time().'" ');

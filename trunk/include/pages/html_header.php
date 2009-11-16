@@ -116,12 +116,14 @@ $html	.= '
 
 	if( $this->user->is_logged ) {
 		$html	.= '
+						<a href="'.SITEURL.'all"><b><span>'.$this->lang('nav_all').'</span></b></a>
 						<a href="'.userlink($this->user->info->username).'"><b style="padding-left:8px;"><img src="'.IMGSRV_URL.'avatars/thumbs2/'.$this->user->info->avatar.'" style="width: 16px; height: 16px;" alt="" /> <span>'.htmlspecialchars($this->user->info->username).'</span></b></a>
 						<a href="'.SITEURL.'post" class="newpostbtn" onclick="postform_open(1, '.POST_MAX_SYMBOLS.'); return false;" title="'.$this->lang('post_hotkey1').'"><b><span>'.$this->lang('nav_post').'</span></b></a>
 						<a href="'.SITEURL.'search"><b><span>'.$this->lang('nav_search').'</span></b></a>
 						<a href="'.SITEURL.'login/log:out"><b><span>'.$this->lang('nav_logout').'</span></b></a>';
 	}
 	else {
+		$html .= '<a href="'.SITEURL.'all"><b><span>'.$this->lang('nav_all').'</span></b></a>';
 		if( $this->request[0] != 'home' ) {
 			$html	.= '
 						<a href="'.SITEURL.'login"><b><span>'.$this->lang('nav_login').'</span></b></a>';

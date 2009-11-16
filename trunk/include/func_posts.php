@@ -98,7 +98,7 @@
 		global $db;
 		$mentioned	= array();
 		$usernames	= array();
-		if( preg_match_all('/\@([a-zA-Z0-9\-_]{4,20})/', $message, $matches, PREG_PATTERN_ORDER) ) {
+		if( preg_match_all('/\@([a-zA-Z0-9\-_]{3,20})/', $message, $matches, PREG_PATTERN_ORDER) ) {
 			unset($message);
 			foreach($matches[1] as $u) {
 				if( $usr = get_user_by_username($u) ) {
@@ -525,7 +525,7 @@
 				$author_links	= '<div class="post_btns_top" id="post_btns_top_'.$one->id.'" style="display: none;" onmouseover="show_post_topbtns('.$one->id.');" onmouseout="hide_post_topbtns('.$one->id.');">';
 				if( $profile_tab!='onlydirect' && $user->is_logged && $user->id!=$usr->id ) {
 					$author_links_c	= 2;
-					$author_links	.= '<a class="ptop_btn_quot" href="'.SITEURL.'post" onclick="hide_post_topbtns('.$one->id.', true); postform_mention(\''.$usr->username.'\', '.POST_MAX_SYMBOLS.'); return false" onmouseover="obj_class_add(this.parentNode, \'hvr_mention\');" onmouseout="obj_class_del(this.parentNode, \'hvr_mention\');"><b>'.$page->lang('posttopicon_mention').$usr->username.'</b></a>';
+					$author_links	.= '<a class="ptop_btn_quot" href="'.SITEURL.'post" onclick="hide_post_topbtns('.$one->id.', true); postform_mention(\''.$usr->username.'\', '.POST_MAX_SYMBOLS.',\''.$one->message.'\'); return false" onmouseover="obj_class_add(this.parentNode, \'hvr_mention\');" onmouseout="obj_class_del(this.parentNode, \'hvr_mention\');"><b>'.$page->lang('posttopicon_mention').$usr->username.'</b></a>';
 					$author_links	.= '<a class="ptop_btn_reply" href="'.SITEURL.'post/usr:'.$usr->username.'" onclick="hide_post_topbtns('.$one->id.', true); postform_open(2, '.POST_MAX_SYMBOLS.', \''.$usr->username.'\', '.$usr->id.'); return false"  onmouseover="obj_class_add(this.parentNode, \'hvr_direct\');" onmouseout="obj_class_del(this.parentNode, \'hvr_direct\');"><b>'.$page->lang('posttopicon_direct').'</b></a>';
 					$author_links	.= '<div class="dv_mention">'.$page->lang('posttopicon_mention').$usr->username.'</div>';
 					$author_links	.= '<div class="dv_direct">'.$page->lang('posttopicon_direct').'</div>';

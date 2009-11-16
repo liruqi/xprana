@@ -6,6 +6,7 @@
 		'post_title2'	=> 'Typing a message to',
 		
 		'post_submit'	=> 'Send',
+		'spost_submit' => 'Secret',
 		
 		'post_ok'	=> 'Done',
 		'post_ok2'	=> 'The message was sent successfully.',
