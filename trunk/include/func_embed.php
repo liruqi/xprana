@@ -104,7 +104,7 @@
 			'embed_w'		=> 420,
 			'embed_h'		=> 363,
 			'embed_code'	=> '<object width="420" height="363"><param name="movie" value="http://www.tudou.com/v/###ID###"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="opaque"></param><embed src="http://www.tudou.com/v/###ID###" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="420" height="363"></embed></object>',
-			'embed_thumb'	=> 'http://xprana.com/tudou.img.php?url=http://www.tudou.com/v/###ID###/',
+			'embed_thumb'	=> 'http://xprana.com/extension/tudou.img.php?url=http://www.tudou.com/v/###ID###/',
 			'insite_url'	=> 'http://www.tudou.com/programs/view/###ID###/',
 		),
 		'youku'	=> (object) array
@@ -130,6 +130,18 @@
 			'embed_code'	=> '<embed src="http://mv.baidu.com/export/flashplayer.swf?vid=###ID###" quality="high" width="480" height="400" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"></embed>',
 			'embed_thumb'	=> 'http://i.ytimg.com/vi/###ID###/default.jpg',
 			'insite_url'	=> 'http://mv.baidu.com/export/flashplayer.swf?vid=###ID###',
+		),
+		'tudou_list'	=> (object) array
+		(
+			'src_url_pattern'		=> '/^http(s)?\:\/\/(www\.)?tudou\.com\/playlist\/playindex.do\?lid=([0-9]{3,})\&iid=([0-9]{3,})/i',
+			'src_url_matchnum'	=> 4,
+			'src_emb_pattern'		=> '/^http(s)?\:\/\/(www\.)?tudou\.com\/v\/([a-z0-9-\_]{3,})/i',
+			'src_emb_matchnum'	=> 3,
+			'embed_w'		=> 420,
+			'embed_h'		=> 363,
+			'embed_code'	=> '<object width="420" height="363"><param name="movie" value="http://www.tudou.com/player/outside/player_outside.swf?iid=###ID###&default_skin=http://js.tudouui.com/bin/player2/outside/Skin_outside_16.swf&autostart=false&rurl="></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="opaque"></param><embed src="http://www.tudou.com/player/outside/player_outside.swf?iid=###ID###&default_skin=http://js.tudouui.com/bin/player2/outside/Skin_outside_16.swf&autostart=false&rurl=" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="420" height="363"></embed></object>',
+			'embed_thumb'	=> 'http://xprana.com/extension/tudou_list.img.php?id=###ID###',
+			'insite_url'	=> 'http://www.tudou.com/programs/view/###ID###/',
 		),
 	);
 	
