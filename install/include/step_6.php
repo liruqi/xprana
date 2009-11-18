@@ -24,6 +24,7 @@
 	
 	$languages	= array (
 		'en'	=> 'English',
+		'cn' 	=> 'Simplified Chinese',
 		'bg'	=> 'Bulgarian',
 		'fr'	=> 'French',
 		'jp'	=> 'Japanese',
