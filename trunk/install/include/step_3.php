@@ -122,6 +122,8 @@
 		}
 	}
 	
+	$check['apache_mod_rewrite'] = TRUE;
+	
 	$error	= FALSE;
 	foreach($check as $tmp) {
 		if( ! $tmp ) {
