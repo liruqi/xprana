@@ -1,8 +1,6 @@
 ﻿<?php
 
-$INFTR	= '<script type="text/javascript" src="http://js.tongji.linezing.com/697466/tongji.js"></script><noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/697466/tongji.gif"/></a></noscript>';
-
-$INFTR .= '<script type="text/javascript">document.write(unescape("%3Cscript src=\'http://www.google-analytics.com/ga.js\' type=\'text/javascript\'%3E%3C/script%3E"));</script><script type="text/javascript">try{var pageTracker = _gat._getTracker("UA-11600524-1");pageTracker._trackPageview();} catch(err) {}</script>';
+$INFTR	= '';
 
 $lastrun	= $GLOBALS['cache']->get('cron_last_run');
 if( !$lastrun || $lastrun<time()-60 ) {
