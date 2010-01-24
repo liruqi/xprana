@@ -27,12 +27,6 @@
 			$db->query('INSERT INTO posts_direct SET api_id="'.$api_id.'", user_id="'.$db_user_id.'", message="'.$db_message.'", to_user="'.$to_user.'", attached_link="'.$db_attlink.'", date="'.$pdate.'", ip_address="'.$db_ip_addr.'" ', FALSE);
 		}
 		else {
-			/*
-			$uncensored	= is_uncensored_post($message, $user->id) ? 1 : 2;
-			if( $uncensored==2 && !empty($attach_link)  ) {
-				$uncensored	= 1;
-			}
-			*/
 			$uncensored	= 2;
 			
 			$is_feed	= intval($is_feed);
@@ -317,44 +311,6 @@
 			$html	.= '</a>';
 		}
 		return $html;
-	}
-	
-	function is_uncensored_post($msg, $user_id)
-	{
-		if( $user_id != SYSACCOUNT_ID && (FALSE!==strpos($msg,'http://') || FALSE!==strpos($msg,'https://') || FALSE!==strpos($msg,'ftp://')) ) {
-			return TRUE;
-		}
-		$bad	= get_badwords();
-		$uncensored	= FALSE;
-		foreach($bad as $str) {
-			if( preg_match('/'.$str.'/iu', $msg) ) {
-				return TRUE;
-			}
-		}
-		if( ! preg_match('/[а-я]/iu', $msg) ) {
-			return TRUE;
-		}
-		if( preg_match('/\?{4,}|\!{4,}|a{4,}|а{4,}|ъ{4,}|o{4,}|о{4,}|u{4,}|у{4,}|e{4,}|е{4,}|i{4,}|и{4,}|й{4,}|ш{3,}|ф{3,}|d{3,}|p{3,}|\){3,}/iu', $msg, $m) ) {
-			return TRUE;
-		}
-		return FALSE;
-	}
-	function get_badwords($force_refresh=FALSE)
-	{
-		global $cache;
-		$key	= 'edno23_badwords';
-		$data	= $cache->get( $key );
-		if( FALSE!==$data && TRUE!=$force_refresh ) {
-			return $data;
-		}
-		global $db;
-		$data	= array();
-		$res	= $db->query('SELECT * FROM badwords', FALSE);
-		while($obj = $db->fetch_object($res)) {
-			$data[]	= stripslashes($obj->str);
-		}
-		$cache->set( $key, $data, CACHE_EXPIRE );
-		return $data;
 	}
 	
 	function get_posts_api($id, $force_refresh=FALSE)

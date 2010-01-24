@@ -12,23 +12,6 @@
 		}
 		$res	= TRUE;
 		$res	= $res && @mysql_query("
-			CREATE TABLE IF NOT EXISTS `badwords` (
-			  `str` varchar(30) collate utf8_unicode_ci NOT NULL,
-			  PRIMARY KEY  (`str`)
-			) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-		");
-		$res	= $res && @mysql_query("
-			INSERT INTO `badwords` (`str`) VALUES
-			('ass'),
-			('bitch'),
-			('dick'),
-			('fuck'),
-			('pussy'),
-			('suck'),
-			('tsonic'),
-			('whore');
-		");
-		$res	= $res && @mysql_query("
 			CREATE TABLE IF NOT EXISTS `crons` (
 			  `cron` varchar(10) collate utf8_unicode_ci NOT NULL,
 			  `last_run` int(10) unsigned NOT NULL,
