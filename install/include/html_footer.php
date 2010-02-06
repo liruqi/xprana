@@ -1,18 +1,25 @@
-<?php
-
-$footer	= 
-'
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="kapak_bottom"><div></div></div>
-				<div id="ftr" style="font-size:11px; text-align:left; padding-top:5px; padding-left:10px; color:#888;">
-					Step '.$step.' of 8
-				</div>
-			</div>
-		</div>
-	</body>
-</html>';
-
+<?php
+
+$footer	= 
+'
+				</div>
+			</div>
+			<div id="footercorners"><div id="footercorners2"></div></div>
+			<div id="subfooter">
+				<div id="sfleft">
+					Step '.$step.' of 8
+				</div>
+				<div id="sfright">
+					<span style="color:#888;">
+						Powered by
+						<a href="http://sharetronix.com" target="_blank" style="color:#666;">Sharetronix</a> &middot; 
+						<a href="http://blogtronixmicro.com" target="_blank" style="color:#666;">BlogtronixMicro</a> &middot; 
+						<a href="http://blogtronix.com" target="_blank" style="color:#666;">Blogtronix</a>
+					</span> 
+				</div>
+			</div>
+		</div>
+	</body>
+</html>';
+
 ?>

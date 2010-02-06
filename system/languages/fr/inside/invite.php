@@ -1,0 +1,80 @@
+<?php
+	
+	$lang	= array
+	(
+		'invite_title'	=> 'Invitation center',
+		
+		'invite_ttl_colleagues' 	=> 'Inviter Collegues sur - #SITE_TITLE#',
+		'invite_ttl_personalurl'	=> 'Inviter Collegues sur - #SITE_TITLE#',
+		'invite_ttl_sentinvites'	=> 'Invitations envoyees - #SITE_TITLE#',
+		'invite_ttl_recommend'		=> 'Recommender #OUTSIDE_SITE_TITLE#',
+		'os_invite_ttl_colleagues' 	=> 'Invitations collegues - #SITE_TITLE#',
+		'os_invite_ttl_personalurl'	=> 'Invitations collegues  - #SITE_TITLE#',
+		'os_invite_ttl_sentinvites'	=> 'Invitations envoyees - #SITE_TITLE#',
+		'os_invite_ttl_recommend'	=> 'Recommender #OUTSIDE_SITE_TITLE#',
+		
+		'invite_tab_colleagues' 	=> 'Inviter collegues',
+		'invite_tab_personalurl'	=> 'Lien personnel d\'invitation',
+		'invite_tab_sentinvites'	=> 'Invitations envoyees',
+		'invite_tab_recommend'		=> 'Recommender #OUTSIDE_SITE_TITLE#',
+		'os_invite_tab_colleagues' 	=> 'Inviter collegues',
+		'os_invite_tab_personalurl'	=> 'Lien personnel d\'invitation',
+		'os_invite_tab_sentinvites'	=> 'Invitations envoyees',
+		'os_invite_tab_recommend'	=> 'Recommender #OUTSIDE_SITE_TITLE#',
+		
+		'invite_txt_colleagues'		=> 'Invitez vos collegues a rejoindre le reseau #SITE_TITLE# quand ils s\'inscriront vous serez followers mutuellement et verrez leurs posts et mises a jours automatiquement.',
+		'invite_txt_personalurl'	=> 'Invitez tous vos collegues a rejoindre le reseau #SITE_TITLE# quand ils s\'inscriront vous serez followers mutuellement et verrez leurs posts et mises a jours automatiquement',
+		'invite_txt_sentinvites'	=> 'Toutes vos invitations envoyees a vos collegues.',
+		'invite_txt_recommend'		=> 'Avec ce formulaire invitez des collegues  #OUTSIDE_SITE_TITLE# afin qu\'ils rejoignent le reseau.',
+		
+		'os_invite_txt_colleagues'	=> 'Invitez vos collegues a rejoindre le reseau #SITE_TITLE# quand ils s\'inscriront vous serez followers mutuellement et verrez leurs posts et mises a jours automatiquement.',
+		'os_invite_txt_personalurl'	=> 'Invitez tous vos collegues a rejoindre le reseau avec ce lien d\'invitation #SITE_TITLE# quand ils s\'inscriront vous serez followers mutuellement et verrez leurs posts et mises a jours automatiquement',
+		'os_invite_txt_sentinvites'	=> 'Toutes vos invitations envoyees a vos collegues.',
+		'os_invite_txt_recommend'	=> 'With this form you can invite your friends to join #SITE_TITLE#.',
+		
+		'inv_clg_form_title'	=> 'Envoyer invitation a:',
+		'inv_clg_form_name'	=> 'nom:',
+		'inv_clg_form_email'	=> 'E-mail:',
+		'inv_clg_form_lnadd'	=> 'Ajouter une ligne',
+		'inv_clg_form_lndel'	=> 'Supprimer une ligne',
+		'inv_clg_form_submit'	=> 'Envoyer',
+		'inv_clg_error'		=> 'Erreur',
+		'inv_clg_err_fill'	=> 'Merci de remplir tous les champs.',
+		'inv_clg_err_email'	=> 'Adresse #EMAIL# invalide.',
+		'inv_clg_ok_msg'		=> 'OK',
+		'inv_clg_ok_sent_0'	=> 'Aucune invitation n\'a ete envoyee',
+		'inv_clg_ok_sent_1'	=> 'Une inivtation a ete envoyee',
+		'inv_clg_ok_sent_more'	=> '#NUM# invitations ont ete envoyees',
+		'inv_clg_ok_exists'	=> '&raquo; #NAME# est deja membre: #USERLINK#',
+		'inv_clg_ok_alrdsent'	=> '&raquo; Vous avez deja envoye une invitation a #EMAIL#',
+		
+		'inv_sent_nosent_ttl'	=> 'Pas d\'invitations',
+		'inv_sent_nosent_txt'	=> 'Non envoyee',
+		'inv_sent_tbl_name'  	=> 'Nom.',
+		'inv_sent_tbl_date'	    => 'Date de l\'invitation',
+		'inv_sent_tbl_status'	=> 'Status',
+		'inv_sent_date_format'	=> '%B %e, %Y',
+		'inv_sent_status_acptd'	=> 'Accepteee',
+		'inv_sent_status_pndng'	=> 'En attente',
+		
+		'inv_plnk_yourlink'	=> 'Votre lien personnel d\'invitation:',
+		
+		'inv_recm_form_title'	=> 'Recommender #SITE_TITLE# a:',
+		'inv_recm_form_name'	=> 'Nom:',
+		'inv_recm_form_email'	=> 'E-mail:',
+		'inv_recm_form_lnadd'	=> 'Ajouter une ligne',
+		'inv_recm_form_lndel'	=> 'Supprimer une ligne',
+		'inv_recm_form_subject'	=> 'Sujet:',
+		'inv_recm_form_message'	=> 'Message:',
+		'inv_recm_form_send'	=> 'Envoyer recommendation',
+		'inv_recm_def_subject'	=> '#WHO# recommende #SITE_TITLE#!.',
+		'inv_recm_def_message'	=> "Bonjour [NAME],\n\nJe pense que ce reseau social pourrait vous interesser: #SITE_URL#\n#SITE_TITLE# C\'est un reseau social qui vous permet de partager en temps reel avec les membres de votre entreprise ou d\'autres entreprises afin d\'ameliorer la communiquation intraentreprise. Il est possible d y ceer des groupes de travail. Inscrivez vous et rejoignez moi dessus: #SITE_URL#",
+		'inv_recm_error'		=> 'Erreur',
+		'inv_recm_err_fill'	=> 'Merci de verifier tous les champs.',
+		'inv_recm_err_email'	=> 'cette adresse #EMAIL# est invalide.',
+		'inv_recm_ok_msg'		=> 'OK',
+		'inv_recm_ok_sent_1'	=> 'Une invitation a ete envoyee',
+		'inv_recm_ok_sent_more'	=> '#NUM# invitations envoyees',
+	);
+	
+?>
