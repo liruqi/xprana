@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /from:ajax/
+Allow: /
