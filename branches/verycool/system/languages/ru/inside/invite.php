@@ -1,0 +1,80 @@
+<?php
+	
+	$lang	= array
+	(
+		'invite_title'	=> 'Центр управления приглашениями',
+		
+		'invite_ttl_colleagues' 	=> 'Пригласить коллег - #SITE_TITLE#',
+		'invite_ttl_personalurl'	=> 'Пригласить коллег - #SITE_TITLE#',
+		'invite_ttl_sentinvites'	=> 'Послать приглашение - #SITE_TITLE#',
+		'invite_ttl_recommend'		=> 'Посоветовать #OUTSIDE_SITE_TITLE#',
+		'os_invite_ttl_colleagues' 	=> 'Пригласить людей - #SITE_TITLE#',
+		'os_invite_ttl_personalurl'	=> 'Пригласить людей - #SITE_TITLE#',
+		'os_invite_ttl_sentinvites'	=> 'Послать приглашение - #SITE_TITLE#',
+		'os_invite_ttl_recommend'	=> 'Посоветовать #OUTSIDE_SITE_TITLE#',
+		
+		'invite_tab_colleagues' 	=> 'Пригласить коллег',
+		'invite_tab_personalurl'	=> 'Ссылка для персонального приглашения',
+		'invite_tab_sentinvites'	=> 'Послать приглашение',
+		'invite_tab_recommend'		=> 'Recommend #OUTSIDE_SITE_TITLE#',
+		'os_invite_tab_colleagues' 	=> 'Пригласить людей',
+		'os_invite_tab_personalurl'	=> 'Персональное приглашение',
+		'os_invite_tab_sentinvites'	=> 'Отправленные приглашения',
+		'os_invite_tab_recommend'	=> 'Посоветовать #OUTSIDE_SITE_TITLE#',
+		
+		'invite_txt_colleagues'		=> 'При помощи этой формы вы можете послать приглашение коллегам присоединиться к вам на сайте #SITE_TITLE#. После того как кто-нибудь из приглашенных зарегистрируется, система автоматически подпишет вас на их обновления',
+		'invite_txt_personalurl'	=> 'Вы можете послать ссылку коллегам с приглашением присоединиться к вам на сайте #SITE_TITLE#. После того как кто-нибудь из приглашенных зарегистрируется, система автоматически подпишет вас на их обновления',
+		'invite_txt_sentinvites'	=> 'Это все приглашения, которые вы посылали своим коллегам.',
+		'invite_txt_recommend'		=> 'При помощи этой формы вы можете послать приглашение коллегам из других компаний присоединиться к вам #OUTSIDE_SITE_TITLE# и создать свои корпоративные блоги.',
+		
+		'os_invite_txt_colleagues'	=> 'При помощи этой формы вы можете послать приглашение друзьям присоединиться к вам на сайте #SITE_TITLE#. После того как кто-нибудь из приглашенных зарегистрируется, система автоматически подпишет вас на их обновления',
+		'os_invite_txt_personalurl'	=> 'Вы можете послать ссылку друзьям с приглашением присоединиться к вам на сайте #SITE_TITLE#. После того как кто-нибудь из приглашенных зарегистрируется, система автоматически подпишет вас на их обновления.',
+		'os_invite_txt_sentinvites'	=> 'Это все приглашения, которые вы посылали своим друзьям.',
+		'os_invite_txt_recommend'	=> 'При помощи этой формы вы можете послать приглашение друзьям присоединиться к #SITE_TITLE#.',
+		
+		'inv_clg_form_title'	=> 'Послать приглашение еще для:',
+		'inv_clg_form_name'	=> 'Имя:',
+		'inv_clg_form_email'	=> 'E-mail:',
+		'inv_clg_form_lnadd'	=> 'Добавить строчку',
+		'inv_clg_form_lndel'	=> 'Удалить строчку',
+		'inv_clg_form_submit'	=> 'Послать',
+		'inv_clg_error'		=> 'Ошибка',
+		'inv_clg_err_fill'	=> 'Пожалуйста заполните все поля.',
+		'inv_clg_err_email'	=> 'Не правильный e-mail адрес #EMAIL#.',
+		'inv_clg_ok_msg'		=> 'Готово',
+		'inv_clg_ok_sent_0'	=> 'Приглашения не разосланы',
+		'inv_clg_ok_sent_1'	=> 'Одно приглашение отправлено',
+		'inv_clg_ok_sent_more'	=> '#NUM# приглашений отправлено',
+		'inv_clg_ok_exists'	=> '&raquo; #NAME# уже является пользователем: #USERLINK#',
+		'inv_clg_ok_alrdsent'	=> '&raquo; Вы уже посылали приглашение на адрес #EMAIL#',
+		
+		'inv_sent_nosent_ttl'	=> 'Нет приглашений',
+		'inv_sent_nosent_txt'	=> 'Вы еще не посылали приглашений.',
+		'inv_sent_tbl_name'	=> 'Имя',
+		'inv_sent_tbl_date'	=> 'Дата приглашения',
+		'inv_sent_tbl_status'	=> 'Статус',
+		'inv_sent_date_format'	=> '%B %e, %Y',
+		'inv_sent_status_acptd'	=> 'Принято',
+		'inv_sent_status_pndng'	=> 'Отклонено',
+		
+		'inv_plnk_yourlink'	=> 'Ваша персональная ссылка для приглашений:',
+		
+		'inv_recm_form_title'	=> 'Порекомендовать #SITE_TITLE# :',
+		'inv_recm_form_name'	=> 'Имя:',
+		'inv_recm_form_email'	=> 'E-mail:',
+		'inv_recm_form_lnadd'	=> 'Добавить строку',
+		'inv_recm_form_lndel'	=> 'Удалить строку',
+		'inv_recm_form_subject'	=> 'Тема:',
+		'inv_recm_form_message'	=> 'Сообщение:',
+		'inv_recm_form_send'	=> 'Отправить рекомендацию',
+		'inv_recm_def_subject'	=> '#WHO# рекомендует #SITE_TITLE#! Посмотри.',
+		'inv_recm_def_message'	=> "Привет [NAME],\n\nВы можете найти много интересного на: #SITE_URL#\n#SITE_TITLE# это корпоративная социальная сеть, позволяющая быстро и удобно общаться со своими сослуживцами. Как это выглядит смотри тут: #SITE_URL#video\n\nУспехов,\n#WHO#,\n#COMPANY#",
+		'inv_recm_error'		=> 'Ошибка',
+		'inv_recm_err_fill'	=> 'Пожалуйста заполните все поля.',
+		'inv_recm_err_email'	=> 'Не правильны адрес #EMAIL#.',
+		'inv_recm_ok_msg'		=> 'Готово',
+		'inv_recm_ok_sent_1'	=> 'Приглашение послано',
+		'inv_recm_ok_sent_more'	=> '#NUM# приглашений послано',
+	);
+	
+?>

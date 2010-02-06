@@ -1,0 +1,2 @@
+[06-Feb-2010 16:06:04] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'mimitre1_alpha'@'localhost' (using password: YES) in /home/mimitre1/public_html/alpha/system/classes/class_mysql.php on line 31
+[06-Feb-2010 16:06:04] PHP Warning:  mysql_error(): supplied argument is not a valid MySQL-Link resource in /home/mimitre1/public_html/alpha/system/classes/class_mysql.php on line 167
