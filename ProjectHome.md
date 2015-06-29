@@ -1,0 +1,2 @@
+Xprana is a multimedia microblogging platform based on Sharetronix Opensource. It helps people in a community, company, or group to exchange short messages over
+the Web. And it supports Chinese video sources, e.g. youku, tudou and sina video.
